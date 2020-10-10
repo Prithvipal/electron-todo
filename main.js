@@ -30,13 +30,14 @@ const mainMenuTemplate = [
         label: 'File',
         submenu: [
             {
-                label: "Add Item"
+                label: 'Add Item'
             },
             {
-                label: "Clear Items"
+                label: 'Clear Items'
             },
             {
-                label: "Quit",
+                label: 'Quit',
+                accelerator: process.platform == 'darwin' ? 'Command+Q' : 'Ctrl+Q',
                 click(){
                     app.quit();
                 }
