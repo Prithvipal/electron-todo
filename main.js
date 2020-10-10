@@ -47,6 +47,11 @@ function createAddWindow(){
       slashes: true
   }));
 
+  // Garbase collection handle
+  addWindow.on('close', function(){
+    addWindow = null;
+  });
+
 }
 
 
