@@ -44,7 +44,7 @@ function createAddWindow(){
   addWindow = new BrowserWindow({
       width: 300,
       height: 200,
-      title: "Add shopping list item",
+      title: "Add TODO list item",
       webPreferences: {
         nodeIntegration:true
       }
