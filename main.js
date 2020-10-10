@@ -19,6 +19,11 @@ app.on('ready', function () {
         slashes: true
     }));
 
+    // Quit app when closed
+    mainWindow.on("closed", function(){
+        app.quit()
+    })
+
     // Build menu from template
     const mainMenu = Menu.buildFromTemplate(mainMenuTemplate)
 
@@ -32,7 +37,7 @@ function createAddWindow(){
   addWindow = new BrowserWindow({
       width: 300,
       height: 200,
-      title: "Add shopping list item"
+      title: "Add shopping list items"
 
   })
   // Load html into window
