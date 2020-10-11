@@ -2,6 +2,7 @@
 
 NoteX is a destop application. The purpose of this applicattion to maintain todo list. It is developed using Electron JS.
 
+![](docs/media/demo.gif)
 #### Run Application in Developer mode
 
 ```
