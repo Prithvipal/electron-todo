@@ -1,6 +1,6 @@
-# Electron TODO
+# NoteX
 
-Electron TODO is a destop application. The purpose of this applicattion to maintain todo list. It is developed using Electron JS.
+NoteX is a destop application. The purpose of this applicattion to maintain todo list. It is developed using Electron JS.
 
 #### Run Application in Developer mode
 
