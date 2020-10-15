@@ -28,3 +28,5 @@ npm run package-win
 Ex: There can be a note for to list of item to be purchaged. Another note may contains list books to read etc.
 2. **Data storage:** Currently, todo list items are being stored in memory. When application is refreshed/reopened, previously added data will be vanished. We have not finalized that where data will be store: it can be database, file system.
 3. **Package Installer:** This application support command to generate package for Windows, Linux and Mac but we have not created installer yet. We want to create a installer which will be easily downloaded and installed.
+4. **Mark task as done:** There should be checkbox in front of each task. When checkbox will be check that task will be considered as done and it move to end of list. If it is unchecked again, it will be move to top of the list. This should be done by some animated way().
+
